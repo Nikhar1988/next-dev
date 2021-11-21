@@ -1,5 +1,6 @@
 import ContactInfo from "../../components/ContactInfo";
 import Head from 'next/head';
+import { GetServerSideProps } from "next";
 
 
 export const getServerSideProps = async ({query}) => {
